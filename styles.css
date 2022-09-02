@@ -166,7 +166,11 @@ Testimonils section */
         position: static;
         transform: rotate(0);
     }
-    .top{
+    
+}
+@include media-breakpoint-only(sm) {
+    
+.top{
         padding: 0 2% 0 2%;
     }
 }
