@@ -168,9 +168,9 @@ Testimonils section */
     }
     
 }
-@include media-breakpoint-only(sm) {
-    
-.top{
-        padding: 0 2% 0 2%;
-    }
+@media (max-width: 992px) { 
+     .navbar-brand{
+        padding-left: 3%;
+    } 
+     
 }
